@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+ 
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+
+<body>
+
+  <section class="container">
+
+    <div class="main-container">
+      <form id="form">
+        <div class="fields">
+          <div class="input-field">
+            <label for="day">DAY</label>
+            <input type="text" id="day" name="day" placeholder="DD">
+            <p id="day-alert">Helper text</p>
+          </div>
+          <div class="input-field">
+            <label for="month">MONTH</label>
+            <input type="text" id="month" name="month" placeholder="MM">
+            <p id="month-alert">Helper text</p>
+          </div>
+          <div class="input-field">
+            <label for="day">YEAR</label>
+            <input type="text" id="year" name="year" placeholder="YY">
+            <p id="year-alert">Helper text</p>
+          </div>
+        </div>
+
+        <div class="line-button">
+          <img class="line" src="./assets/images/line.svg" alt="">
+          <button type="submit" class="icon">
+            <div class="arrow">
+              <img src="./assets/images/icon-arrow.svg" alt="">
+            </div>
+          </button>
+        </div>
+      </form>
+
+      <div class="bottom" id="bottom">
+        <div class="inactive" id="inactive">
+          <p><span class="highlight">--</span> years</p>       
+          <p><span class="highlight">--</span> months</p>
+          <p><span class="highlight">--</span> days</p>  
+        </div>
+
+        <div class="active-container" id="active-container">
+          <!-- <div class="active" id="active">
+            <p><span class="highlight">34</span> years</p>       
+            <p><span class="highlight">6</span> months</p>
+            <p><span class="highlight">18</span> days</p>  
+        </div> -->
+        </div>
+      </div>
+
+      
+      
+    </div>
+
+  </section>
+
+
+  <script src="./index.js"></script>
+  
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
